@@ -6,11 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans:400,700" rel="stylesheet">
+
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Doggo Select</title>
 </head>
 
 <body>
+    <header>
+        <h1 class="logo">DoggoSelect</h1>
+    </header>
+    <div class="container">
+        <label for="breeds">Select a Breed</label>
+        <select class="u-full-width" id="breeds"></select>
+
+        <div class="card"></div>
+
+        <form>
+            <label for="name">Name</label>
+            <input class="u-full-width" id="name" type="text">
+
+            <label for="comment">Comment</label>
+            <textarea class="u-full-width" id="comment"></textarea>
+
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </div>
 
     <script src="assets/js/app.js"></script>
 </body>
